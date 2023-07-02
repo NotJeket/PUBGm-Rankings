@@ -7,6 +7,7 @@ This program displays customized splash screens for a gaming app. It retrieves d
 -   Retrieves team and player data from an API.
 -   Creates customized splash screens for each team.
 -   Displays team logos, team names, team eliminations, and player information with live states.
+-   Different Pics for different player livestates
 -   Updates the splash screens at regular intervals.
 
 **Installation**
