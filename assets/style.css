@@ -1,0 +1,120 @@
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@font-face {
+    font-family: 'Arame Mono Bold';
+    src: url('Arame Mono Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.team-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.team-rank{
+    font-weight: bold;
+    color: #004066;
+    text-shadow: 1px 1px 2px white;
+    font-family: 'Arame Mono Bold';
+    font-size: 18px;
+    text-align: left;
+}
+
+.team-container {
+    animation-name: fade;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    display: inline-block;
+    vertical-align: top;
+    width: 330px; /* Adjust the width as per your preference */
+    box-sizing: border-box;
+    height: 100px; /* Adjust the height as per your preference */
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.team-container-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.team-logo-info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 320px;
+}
+
+.team-logo {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.team-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.team-name {
+    width: 152px;
+    height: 50px;
+    font-weight: bold;
+    color: #004066;
+    text-shadow: 1px 1px 2px white;
+    font-family: 'Arame Mono Bold';
+    /*font-size: 18px;*/
+    text-align: center;
+    margin-top: 2.5px;
+}
+
+.team-eliminations {
+    width: 152px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #004066;
+    text-shadow: 1px 1px 2px white;
+    font-family: 'Arame Mono Bold';
+    bottom: 0;
+    text-align: left;
+    margin-top: 7.5px;
+}
+
+.player-status-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows the items to wrap onto multiple lines */
+    flex-direction: row; /* Makes the items align in a row */
+    justify-content: space-around; /* Adjust as needed for your spacing */
+}
+
+.player-image {
+    width: 20px; /* Adjust as needed for your design */
+    margin: 5px;
+    height: 20px;
+}
