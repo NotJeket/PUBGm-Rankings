@@ -42,9 +42,8 @@ def read_live_state_data(url):
 
 
 def get_total_points(team_name):
-    conn = sqlite3.connect("C://Users//NotJeket//Desktop//royal//from api to db&sheet//Test.db")
+    conn = sqlite3.connect("PATH TO DATABASE")
     cursor = conn.cursor()
-                                        #modify table for all points here
     select_statement = "SELECT total_points FROM final_table WHERE team_name = ?"
     cursor.execute(select_statement, (team_name,))
     result = cursor.fetchone()
