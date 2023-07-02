@@ -32,12 +32,13 @@ python your_program_file.py
 
 **Screenshot**
 
-Insert the program's screenshot here.
+![image](https://github.com/NotJeket/PUBGm-Rankings/assets/37781149/b4208b3c-977b-4ff4-8e6b-27d97badaa67)
 
 **Flowchart**
 
-Insert the program's flowchart image here.
+![image](https://github.com/NotJeket/PUBGm-Rankings/assets/37781149/c0868d9a-ff56-4e46-b397-f29aac21bb91)
+
 
 **License**
 
-This project is licensed under the MIT License. See the [LICENSE]() file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/NotJeket/PUBGm-Rankings/blob/main/LICENSE) file for details.
