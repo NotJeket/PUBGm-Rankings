@@ -37,7 +37,8 @@ python your_program_file.py
 
 **Flowchart**
 
-![image](https://github.com/NotJeket/PUBGm-Rankings/assets/37781149/c0868d9a-ff56-4e46-b397-f29aac21bb91)
+![code2flow_SD5eff](https://github.com/NotJeket/PUBGm-Rankings-PlayerState/assets/37781149/34450f5f-12fc-4d36-a2d0-5a40d5cfc65b)
+
 
 
 **License**
